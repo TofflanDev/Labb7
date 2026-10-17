@@ -25,6 +25,13 @@ namespace Labb7
         public static List<T> Load<T>(string path)
         {
             string json = File.ReadAllText(path);
+
+            if (string.IsNullOrWhiteSpace(json))
+            {
+                return [];
+
+            }
+
             return JsonSerializer.Deserialize<List<T>>(json, Options) ?? [];
         }
 

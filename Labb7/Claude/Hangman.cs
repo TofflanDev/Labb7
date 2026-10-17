@@ -7,6 +7,8 @@
 
         public static void Game()
         {
+            Console.Clear();
+
             string word = HangManData.GetRandomWord();
             List<char> guessedLetters = new();
             int wrongGuesses = 0;
