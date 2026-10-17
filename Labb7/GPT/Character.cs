@@ -6,18 +6,16 @@ namespace Labb7.GPT
 {
     struct CharacterData
     {
-     public string myName;
-     public string myAbility;
-     public int myStrength;
-     public int myDexterity;
-     public int myHealthPoints;
+     public string Name { get; set; }
+     public string Ability { get; set; }
+     public int Strength { get; set; }
+     public int Dexterity { get; set; }
+     public int HealthPoints { get; set; }
 
 
     }
     internal class Character
     {
-
-
         public Character()
         {
 
@@ -25,15 +23,13 @@ namespace Labb7.GPT
 
         public CharacterData myCharacterData;
 
-
-
         public override string ToString()
         {
-            return $"Name: {myCharacterData.myName}\n" +
-                $"Ability: {myCharacterData.myAbility}\n" +
-                $"Strength: {myCharacterData.myStrength}\n" +
-                $"Dexterity: {myCharacterData.myDexterity}\n" +
-                $"HealthPoints: {myCharacterData.myHealthPoints}\n";
+            return $"Name: {myCharacterData.Name}\n" +
+                $"Ability: {myCharacterData.Ability}\n" +
+                $"Strength: {myCharacterData.Strength}\n" +
+                $"Dexterity: {myCharacterData.Dexterity}\n" +
+                $"HealthPoints: {myCharacterData.HealthPoints}\n";
         }
 
     }
