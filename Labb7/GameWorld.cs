@@ -1,8 +1,5 @@
 ﻿using Labb7.Claude;
 using Labb7.GPT;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Labb7
 {

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Labb7.GPT
+﻿namespace Labb7.GPT
 {
     internal static class CharacterGenerator
     {

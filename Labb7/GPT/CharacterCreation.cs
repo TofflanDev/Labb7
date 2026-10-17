@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading.Channels;
-
-namespace Labb7.GPT
+﻿namespace Labb7.GPT
 {
     internal static class CharacterCreation
     {

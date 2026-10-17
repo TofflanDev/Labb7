@@ -1,7 +1,4 @@
-﻿using Labb7.Claude;
-using Labb7.GPT;
-using System.Text.Json;
-namespace Labb7
+﻿namespace Labb7
 {
     internal class Program
     {
