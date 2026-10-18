@@ -1,5 +1,4 @@
-﻿using Labb7.Claude;
-using Labb7.GPT;
+﻿using Labb7.RanCharacter;
 
 namespace Labb7
 {
@@ -10,14 +9,13 @@ namespace Labb7
 
             while (true)
             {
-                Console.Clear();
                 Console.WriteLine("1. HangMan\n" +
                "2. Character Creation\n" +
                "3. Exit Program");
                 switch (Console.ReadLine())
                 {
                     case "1":
-                        HangMan.Game();
+                        HangMan.HangMan.Game();
                         break;
                     case "2":
                         CharacterCreation.Game();
@@ -25,6 +23,7 @@ namespace Labb7
                     case "3":
                         return;
                     default:
+                        Console.Clear();
 
                         Console.WriteLine("Invalid Input");
                         break;

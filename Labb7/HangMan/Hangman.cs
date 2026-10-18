@@ -1,4 +1,4 @@
-﻿namespace Labb7.Claude
+﻿namespace Labb7.HangMan
 {
     internal static class HangMan
     {
