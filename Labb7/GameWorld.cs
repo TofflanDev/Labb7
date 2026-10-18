@@ -7,7 +7,9 @@ namespace Labb7
     {
         public void Start()
         {
-
+            // Claude created the entire Hangman game, so I redid the assignment and made
+            // CharacterCreation instead, but decided to keep the Hangman game.
+            // Check out DataReader.cs, CharacterGenerator.cs, and Character.cs.
             while (true)
             {
                 Console.WriteLine("1. HangMan\n" +

@@ -7,6 +7,7 @@
         public void ViewAllCharacters()
         {
             Console.Clear();
+            // AI suggested displaying an error message if there are no characters in the list.
             if (characterList.Count < 1)
             {
                 Console.WriteLine("No characters saved yet");

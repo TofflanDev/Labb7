@@ -4,7 +4,10 @@ namespace Labb7
 {
     internal static class DataReader
     {
-
+        // AI suggested and helped set up a "Data" folder to store our files instead of
+        // using the Debug folder. We now have a Data folder where we can easily modify
+        // and add files, and the JSON files are copied to the Debug Data folder
+        // "Copy if newer" properties changed.
         private static string GetPath(string fileName) =>
             Path.Combine(AppContext.BaseDirectory, "Data", fileName);
 
@@ -22,7 +25,7 @@ namespace Labb7
 
         public static List<T> Load<T>(string fileName)
         {
-
+            // AI suggested adding all the error handling here, as I didn't have any before.
             string fullPath = GetPath(fileName);
 
             if (!File.Exists(fullPath))

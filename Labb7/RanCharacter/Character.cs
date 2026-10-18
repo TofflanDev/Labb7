@@ -3,6 +3,7 @@
  
     internal class Character
     {
+        // AI suggested removing the struct and turning it into properties.
         public string Name { get; set; } = "";
         public string Ability { get; set; } = "";
         public int Strength { get; set; }
