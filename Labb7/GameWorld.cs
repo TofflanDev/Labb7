@@ -1,4 +1,5 @@
-﻿using Labb7.RanCharacter;
+﻿using Labb7.HangMan;
+using Labb7.RanCharacter;
 
 namespace Labb7
 {
@@ -15,7 +16,7 @@ namespace Labb7
                 switch (Console.ReadLine())
                 {
                     case "1":
-                        HangMan.HangMan.Game();
+                        HangManGame.Game();
                         break;
                     case "2":
                         CharacterCreation.Game();

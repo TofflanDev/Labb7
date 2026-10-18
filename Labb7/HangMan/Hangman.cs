@@ -1,6 +1,6 @@
 ﻿namespace Labb7.HangMan
 {
-    internal static class HangMan
+    internal static class HangManGame
     {
         // Antal fel man får göra innan gubben är klar (matchar antal steg i HangManData.Stages).
         private const int MaxWrongGuesses = 6;
